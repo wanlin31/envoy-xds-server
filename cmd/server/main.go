@@ -42,7 +42,7 @@ func init() {
 	log.SetLevel(log.DebugLevel)
 
 	// The port that this xDS server listens on
-	flag.UintVar(&port, "port", 9002, "xDS management server port")
+	flag.UintVar(&port, "port", 18001, "xDS management server port")
 
 	// Tell Envoy to use this Node ID
 	flag.StringVar(&nodeID, "nodeID", "test-id", "Node ID")
